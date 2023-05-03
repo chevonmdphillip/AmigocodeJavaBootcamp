@@ -1,4 +1,9 @@
-FROM ubuntu:latest
+FROM openjdk:17
+
+MAINTAINER chevy
+
 LABEL authors="chevy"
 
-ENTRYPOINT ["top", "-b"]
+COPY target/*.jar /app.jar
+
+ENTRYPOINT ["java","-jar","/app.jar"]

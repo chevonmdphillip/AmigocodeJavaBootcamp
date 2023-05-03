@@ -1,19 +1,30 @@
 package com.chevonphillip;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Primitive Types
+        int myNumber = 88;
+        short myShort = 847;
+        long myLong = 9797;
+        String myString = "Hello World";
+        double myDouble = 7.3243;
+        float myFloat = 324.3f;
+        char myChar = 'y';
+        boolean myBoolean = false;
+        byte myByte = 127;
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        int anotherNumber = 1_200_000_000;
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
-        }
+        System.out.println(myNumber);
+        System.out.println(myShort);
+        System.out.println(myLong);
+        System.out.println(myString);
+        System.out.println(myDouble);
+        System.out.println(myFloat);
+        System.out.println(myChar);
+        System.out.println(myBoolean);
+        System.out.println(myByte);
+        System.out.println(anotherNumber);
+
     }
 }
